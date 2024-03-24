@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lawanda | She's cutting edge</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container flex">
+        <h1>LLC</h1>
+
+        <nav class="flex">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </nav>
+      </div>
+    </header>
+
+    <a href="#showcase" class="arrow">
+      <h3>/\</h3>
+    </a>
+
+    <section class="showcase" id="showcase">
+      <div class="container flex">
+        <h1>
+          Welcome to <span class="sp-color"> Lawn Care Service</span> - Your
+          Premier Shrub Trimming and Leaf Cleanup Service Provider
+        </h1>
+
+        <img src="images/showcase.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container flex">
+        <img src="images/about.jpg" alt="" />
+        <div>
+          <h2>Learn More About Lawn Care Service</h2>
+          <p>
+            we understand the importance of maintaining a clean and tidy
+            environment. Whether it's shrub trimming to enhance the beauty of
+            your outdoor space or leaf cleanup to keep your property looking its
+            best, we have the expertise and equipment to get the job done
+            efficiently and effectively. <br />
+            <br />
+            With years of experience, our teams is committed to exceeding your
+            expectations. We believe in going above and beyond to ensure your
+            complete satisfaction, providing personalized service tailored to
+            your specific needs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h1 style="text-align: center">Services</h1>
+      <div class="container flex">
+        <div class="service">
+          <h2>Shrub Trimming and Pruning</h2>
+          <img src="images/trim.jpg" alt="" />
+
+          <p>
+            We utilize precise trimming techniques to promote healthy growth,
+            improve air circulation, and create beautifully manicured shrubbery.
+          </p>
+        </div>
+
+        <div class="service">
+          <h2>Leaf Cleanup and Removal</h2>
+          <img src="images/leaf.jpg" alt="" />
+
+          <p>
+            We utilize state-of-the-art equipment to efficiently gather and
+            dispose of leaves, leaving your property clean and pristine..
+          </p>
+        </div>
+
+        <div class="service">
+          <h2>Debris Cleanup and Hauling</h2>
+          <img src="images/debris.jpg" alt="" />
+
+          <p>
+            Whether it's fallen branches, yard waste, or construction debris,
+            we'll remove it quickly and responsibly, leaving your property
+            clutter-free.
+          </p>
+        </div>
+        <div class="service">
+          <h2>Gutter Cleaning</h2>
+          <img src="images/gutter.jpg" alt="" />
+
+          <p>
+            Ensure proper drainage and prevent water damage with our
+            professional gutter cleaning services.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="container">
+        <h1 style="text-align: center">Our gallery</h1>
+
+        <div class="grid">
+          <img src="images/group.jpg" alt="" />
+          <img src="images/one.jpg" alt="" />
+          <img src="images/two.jpg" alt="" />
+          <img src="images/six.jpg" alt="" />
+          <img src="images/five.jpg" alt="" />
+          <img src="images/three.jpg" alt="" />
+          <img src="images/four.jpg" alt="" />
+          <img src="images/seven.jpg" alt="" />
+          <img src="images/about.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="container grid">
+        <div>
+          <h3>LLC</h3>
+          <p>
+            Your Premier Shrub Trimming and Leaf Cleanup Service Provider.We
+            believe in going above and beyond to ensure your complete
+            satisfaction, providing personalized service tailored to your
+            specific needs.
+          </p>
+        </div>
+
+        <div>
+          <h3>Links</h3>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <li>
+            <a href="mailto:whackingweeds1990@gmail.com"
+              >Hi@whackingweeds1990@gmail.com</a
+            >
+          </li>
+          <li><a href="tel:9035564452">903-556-4452</a></li>
+          <li>
+            <a href="https://cash.app/$mstaza1" target="_blank">$mstaza1</a>
+          </li>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const header = document.getElementById("header");
+      const arrow = document.querySelector(".arrow");
+
+      window.onscroll = () => {
+        if (window.pageYOffset > 100) {
+          header.classList.add("sticky");
+          arrow.style.transform = "translateY(0px)";
+        } else {
+          header.classList.remove("sticky");
+          arrow.style.transform = "translateY(200px)";
+        }
+      };
+    </script>
+  </body>
+</html>
