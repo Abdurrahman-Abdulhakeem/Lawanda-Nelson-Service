@@ -54,6 +54,12 @@ header .container {
   height: 70px;
 }
 
+.hero-text {
+  font-size: 1.4em;
+  max-width: 400px;
+  line-height: 1.3em;
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -92,7 +98,6 @@ header h1 {
   background-position: center;
   margin: 0;
   width: 100%;
-
 }
 
 .showcase h1 {
@@ -104,8 +109,6 @@ header h1 {
 .showcase .flex {
   height: 100%;
   width: 100%;
-
-
 }
 
 .sp-color {
@@ -243,7 +246,6 @@ footer .grid div:first-child {
 }
 
 @media (max-width: 800px) {
-
   header h1 {
     font-size: x-large;
   }
@@ -294,32 +296,30 @@ footer .grid div:first-child {
   .showcase {
     min-height: 400px;
   }
-  
+
   .showcase h1 {
     max-width: 400px;
     margin: auto;
     font-size: 1.8em;
   }
-  
+
   .showcase .flex {
     height: 100%;
     width: 100%;
     margin-left: -40px;
   }
-  
-  
+
   .showcase .flex img {
     align-self: center;
     height: 300px;
     margin-bottom: -130px;
-
   }
 
   .about {
-   padding-top: 170px;
+    padding-top: 170px;
   }
 
   .about img {
-  margin-top: 50px;
+    margin-top: 50px;
   }
 }
