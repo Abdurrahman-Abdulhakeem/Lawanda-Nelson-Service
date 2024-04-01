@@ -246,6 +246,14 @@ footer .grid div:first-child {
 }
 
 @media (max-width: 800px) {
+  .hero {
+    margin-top: 50px;
+  }
+
+  .hero-img {
+    margin-top: 20px;
+
+  }
   header h1 {
     font-size: x-large;
   }
@@ -259,6 +267,10 @@ footer .grid div:first-child {
   .grid {
     grid-template-columns: 1fr;
     align-items: center;
+  }
+
+  .about .flex div {
+    padding-top: 50px;
   }
 
   .about .flex {
