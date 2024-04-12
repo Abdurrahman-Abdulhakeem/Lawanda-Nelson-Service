@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lawanda | She's cutting edge</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container flex">
+        <h1>She's Cutting Edge (LLC)</h1>
+
+        <nav class="flex">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="careers.html" class="btn">Careers</a></li>
+        </nav>
+      </div>
+    </header>
+
+    <a href="#showcase" class="arrow">
+      <h3>/\</h3>
+    </a>
+
+    <section class="showcase" id="showcase">
+      <div class="container flex">
+        <div class="hero">
+          <h1>
+            Join the Team at <span class="sp-color"> She's Cutting Edge</span> -
+            Where Your Career Grows as We Trim!
+          </h1>
+
+          <p class="hero-text">
+            Lawn cutting, Shrub clipping and prunning, Leaf-clean up provider.
+          </p>
+        </div>
+
+        <img src="images/showcase.jpg" alt="" class="hero-img" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container flex">
+        <img src="images/car.jpg" alt="" />
+        <div>
+          <h2>Work for us</h2>
+          <p>
+            Are you passionate about landscaping and dedicated to delivering
+            top-notch outdoor services? At She's Cutting Edge, we're more than
+            just a lawn care provider - we're a team of professionals committed
+            to enhancing outdoor spaces and exceeding our clients' expectations.
+            If you're ready to join a dynamic team where your skills are valued
+            and your career can flourish,
+            <a
+              href="mailto:whackingweeds1990@gmail.com"
+              style="color: palevioletred; text-decoration: underline double"
+              >Drop us an email</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="why">
+      <div class="container flex">
+        <img src="images/five.jpg" alt="" />
+
+        <div>
+          <h1>Why Join She's Cutting Edge:</h1>
+          <p>
+            <strong>Professional Growth:</strong> We provide opportunities for
+            training, development, and advancement, so you can grow your skills
+            and advance your career in the landscaping industry. <br /><br />
+
+            <strong>Team Environment:</strong> We foster a supportive and
+            collaborative team environment where every member's contribution is
+            valued and respected. <br /><br />
+
+            <strong>Client Satisfaction:</strong> We take pride in delivering
+            exceptional service and exceeding our clients' expectations,
+            ensuring their outdoor spaces are always looking their best.
+            <br /><br />
+
+            <strong> Flexible Schedule:</strong> We offer flexible scheduling
+            options and competitive compensation packages to accommodate your
+            lifestyle and needs. <br /><br />
+
+            <strong>Passionate Team:</strong> We're passionate about landscaping
+            and dedicated to providing high-quality outdoor services that
+            enhance the beauty and functionality of our clients properties.
+          </p>
+          <a href="mailto:whackingweeds1990@gmail.com" class="btn" role="button"
+            >Apply through mail</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="container grid">
+        <div>
+          <h3>LLC</h3>
+          <p>
+            Your Premier Shrub Trimming and Leaf Cleanup Service Provider.We
+            believe in going above and beyond to ensure your complete
+            satisfaction, providing personalized service tailored to your
+            specific needs.
+          </p>
+        </div>
+
+        <div>
+          <h3>Links</h3>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <li>
+            <a href="mailto:whackingweeds1990@gmail.com"
+              >whackingweeds1990@gmail.com</a
+            >
+          </li>
+          <li><a href="tel:9035564452">903-556-4452</a></li>
+          <li>
+            <!-- <a href="https://cash.app/$mstaza1" target="_blank">$mstaza1</a> -->
+            Credit or Debt, Zelle, Cash App, Cash all are accepted
+          </li>
+        </div>
+      </div>
+
+      <p style="text-align: center">&copy; 2024 Insured by LLC</p>
+    </footer>
+
+    <script>
+      const header = document.getElementById("header");
+      const arrow = document.querySelector(".arrow");
+
+      window.onscroll = () => {
+        if (window.pageYOffset > 100) {
+          header.classList.add("sticky");
+          arrow.style.transform = "translateY(0px)";
+        } else {
+          header.classList.remove("sticky");
+          arrow.style.transform = "translateY(200px)";
+        }
+      };
+    </script>
+  </body>
+</html>
